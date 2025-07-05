@@ -93,7 +93,7 @@ FineArtRpc是一种适应于快速开发且使用简单的Rpc程序，使用它�
 
     Console.WriteLine(await RpcHelper.GetTcpAsync<ITestRpcServer, string>(async service => await service.SayHelloAsync("张三李四王五")));
 
-    Console.ReadLine();****
+    Console.ReadLine();
     
 
 
