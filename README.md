@@ -69,7 +69,7 @@ FineArtRpc是一种适应于快速开发且使用简单的Rpc程序，使用它�
 
 	至此，Rpc服务器创建完成，其中端口号为5738。
 
-1.5 客户选端调用RPC，创建一个控制台应用程序ConsoleApp1.csproj，并引用BaseRpc.csproj，项目文件如下：
+1.5 客户端调用RPC，创建一个控制台应用程序ConsoleApp1.csproj，并引用BaseRpc.csproj，项目文件如下：
   
     <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
